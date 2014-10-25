@@ -1,21 +1,21 @@
 
-public class Tracing2
+public class Tracing3
 	{
-	
 	public static void main(String[] args)
 		{
-		System.out.println(trace(4, 3));
+		System.out.println(trace(4, 4));
 		}
 	
 	public static int trace(int x, int y)
 		{
-		if(y < 1)
+		if(x == 0)
 			{
 			return x;
 			}
 		else
 			{
-			return trace(x, y - 2) + x;
+			return trace(y - 1, x) + x;
 			}
 		}
 	}
+	
