@@ -2,7 +2,7 @@ public class Anagram
 	{
 	public static void main(String args[])
 		{
-		permuteString("", "Mike");
+		permuteString("", "1234");
 		}
 
 	public static void permuteString(String beginningString, String endingString)
@@ -12,10 +12,10 @@ public class Anagram
 		else
 			for (int i = 0; i < endingString.length(); i++)
 				{
-				String newString = endingString.substring(0, i)
+				String tempString = endingString.substring(0, i)
 							+ endingString.substring(i + 1);
 				permuteString(beginningString + endingString.charAt(i),
-							newString);
+							tempString);
 				}
 		}
 	}
