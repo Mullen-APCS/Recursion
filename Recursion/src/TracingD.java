@@ -1,5 +1,5 @@
 
-public class Tracing2
+public class TracingD
 	{
 	
 	public static void main(String[] args)
@@ -16,7 +16,6 @@ public class Tracing2
 		else
 			{
 			int subproblem = trace(x, y - 2);
-
 			return subproblem + x;
 			}
 		}

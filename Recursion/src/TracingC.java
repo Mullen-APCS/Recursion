@@ -1,5 +1,5 @@
 
-public class Tracing3
+public class TracingC
 	{
 	public static void main(String[] args)
 		{
