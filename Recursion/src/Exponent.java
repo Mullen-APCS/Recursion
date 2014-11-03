@@ -14,8 +14,7 @@ public class Exponent
 			}
 		else
 			{
-			int subproblem = power(base, exponent - 1);
-			return base * subproblem;
+			return base * power(base, exponent - 1);
 			}
 		}
 	}

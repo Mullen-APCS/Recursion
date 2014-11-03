@@ -15,8 +15,7 @@ public class Factorial
 			}
 		else
 			{
-			int subproblem = factorial(n - 1);
-			return n * subproblem;
+			return n * factorial(n - 1);
 			}
 		}
 	}

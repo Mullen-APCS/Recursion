@@ -7,8 +7,7 @@ public class NoBaseCase
 
 	public static int run(int x)
 	   {
-	   int subproblem = run(x + 1);
-	   return subproblem;
+	   return run(x + 1);
 	   }
 	}
 

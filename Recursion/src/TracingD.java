@@ -15,8 +15,7 @@ public class TracingD
 			}
 		else
 			{
-			int subproblem = trace(x, y - 2);
-			return subproblem + x;
+			return x + trace(x, y - 2);
 			}
 		}
 	}

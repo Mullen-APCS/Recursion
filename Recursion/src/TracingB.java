@@ -13,8 +13,7 @@ public class TracingB
 			}
 		else
 			{
-			int subproblem = trace(n - 3);
-			return subproblem + n;
+			return n + trace(n - 3);;
 			}
 		}
 	}
